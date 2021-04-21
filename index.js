@@ -3,16 +3,11 @@ const bodyParser = require('body-parser');
 const https = require('https');
 const fs = require('fs');
 const request = require('request');
-const ejs = require('ejs');
 const app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
-
-ejs.delimeter = "" ;
-ejs.openDelimeter = "";
-ejs.closeDelimeter = "";
 
 app.get('/', (req, res) => res.render('index', {}));
 
