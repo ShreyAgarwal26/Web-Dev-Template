@@ -12,7 +12,8 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => res.render('index', {
-	foo:"FOO"
+	foo:"FOO",
+	delimeter:"%"
 }));
 
 app.listen(port, () => console.log(`Server started on port ${port}.`));	
