@@ -15,4 +15,7 @@ app.get('/', (req, res) => res.render('index', {
 	delimeter:"%"
 }));
 
+// To use when not using EJS
+// app.get('/',(req,res) => res.sendFile(`${__dirname}/index.html`));
+
 app.listen(port, () => console.log(`Server started on port ${port}.`));	

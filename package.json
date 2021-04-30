@@ -13,7 +13,10 @@
     "body-parser": "^1.19.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
+    "highlight.js": "^10.7.2",
+    "jquery": "^3.6.0",
     "lodash": "^4.17.21",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "three": "^0.128.0"
   }
 }
