@@ -7,3 +7,6 @@
 /* Navbar Styles */
 nav ul {list-style-type:none;display:inline-flex;padding:.75rem;}
 nav ul li {padding:.5rem}
+
+/* Footer Styles */
+footer {position:absolute;bottom:0;display:inline-flex;}
