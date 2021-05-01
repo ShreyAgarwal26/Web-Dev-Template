@@ -18,4 +18,6 @@ app.get('/', (req, res) => res.render('index', {
 // To use when not using EJS
 // app.get('/',(req,res) => res.sendFile(`${__dirname}/views/index.html`));
 
+app.post('/', (req,res) => res.redirect('/'));
+
 app.listen(port, () => console.log(`Server started on port ${port}.`));	
