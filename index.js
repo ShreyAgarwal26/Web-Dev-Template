@@ -15,8 +15,11 @@ app.get('/', (req, res) => res.render('index', {
 	delimeter:"%"
 }));
 
+// Handling 404 error
+app.get("*",(req,res) => res.render('404'))
 // To use when not using EJS
-// app.get('/',(req,res) => res.sendFile(`${__dirname}/views/index.html`));
+// app.get("*",(req,res) => res.render(`${__dirname}/views/html/404.html`))
+// app.get('/',(req,res) => res.sendFile(`${__dirname}/views/html/index.html`));
 
 app.post('/', (req,res) => res.redirect('/'));
 
