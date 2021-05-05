@@ -1,0 +1,32 @@
+{
+  "name": "Web-Dev-Template",
+  "version": "1.0.0",
+  "description": "This is a template that anyone can use to make a website. It makes use of HTML, CSS, JavaScript, Node.js, Express, EJS, Bootstrap 5, Font Awesome, Three.js, JQuery, Lodash, and Highlight.js.",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "highlight.js": "^10.7.2",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.7",
+    "request": "^2.88.2",
+    "three": "^0.128.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrIntellectual/Web-Dev-Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrIntellectual/Web-Dev-Template/issues"
+  },
+  "homepage": "https://github.com/MrIntellectual/Web-Dev-Template#readme"
+}
