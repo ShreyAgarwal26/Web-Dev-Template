@@ -1,7 +1,7 @@
 {
   "name": "Web-Dev-Template",
   "version": "1.0.0",
-  "description": "This is a template that anyone can use to make a website. It makes use of HTML, CSS, JavaScript, Node.js, Express, EJS, Bootstrap 5, Font Awesome, Three.js, JQuery, Lodash, and Highlight.js.",
+  "description": "This is a template that anyone can use to make a website.",
   "main": "index.js",
   "dependencies": {
     "ejs": "^3.1.6",

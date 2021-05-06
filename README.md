@@ -1,11 +1,31 @@
 # Web Dev Template
 
-This is a template that anyone can use to make a website. It makes use of HTML, CSS, JavaScript, Node.js, Express, EJS, Bootstrap 5, Font Awesome, Three.js, JQuery, Lodash, and Highlight.js.
+This is a template that anyone can use to make a website.
 
-On Startup
+This is made for local development, and you need to have [mongodb community server](https://www.mongodb.com/try/download/community) installed.
+
+Technologies Used: 
+* HTML, CSS, and JavaScript for Frontend.
+  * Bootstrap 5
+  * Font Awesome
+  * JQuery
+  * Three.js
+  * Highlight.js
+  * Lodash
+* Node.JS for backend.
+  * Express
+  * EJS
+  * Mongoose
+  * Lodash
+* MongoDB for databases
+
+To Setup
 ```shell
-npm init
+npm init -y
 npm i ejs express highlight.js jquery lodash mongoose request three
 ```
 
-This is made for local development, and you need to have [mongodb community server](https://www.mongodb.com/try/download/community) installed.
+To Start
+```shell
+node app.js
+```
