@@ -5,11 +5,13 @@ const request = require('request');
 const _ = require('lodash');
 const ejs = require('ejs');
 const mongoose = require('mongoose');
+const mongodb = require('mongodb');
 const app = express();
 const port = process.env.port || 3000;
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
+// Include line 14 if only using ejs
 app.set('view engine', 'ejs');
 mongoose.connect('mongodb://localhost:27017/dbname', {
   useNewUrlParser: true,
@@ -21,9 +23,9 @@ app.get('/', (req, res) => res.render('index', {
 	delimeter:"%"
 }));
 
-// Handling 404 error
 app.get("*",(req,res) => res.render('404'))
-// To use when not using EJS
+
+// To replace lines 19 - 24 when not using EJS
 // app.get("*",(req,res) => res.render(`${__dirname}/views/html/404.html`))
 // app.get('/',(req,res) => res.sendFile(`${__dirname}/views/html/index.html`));
 
