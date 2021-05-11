@@ -12,7 +12,8 @@ Technologies Used:
   * Three.js
   * Highlight.js
   * Lodash
-  * Badges(Credits to @CoolCoderSJ)
+  * SCSS
+  * Badges(By @CoolCoderSJ)
 * Node.JS for backend.
   * Express
   * EJS
@@ -23,10 +24,15 @@ Technologies Used:
 To Setup
 ```shell
 npm init -y
-npm i ejs express highlight.js jquery lodash mongoose request three
+npm i ejs express highlight.js jquery lodash mongoose request three sass node-sass
+```
+
+To Compile
+```shell
+npm run scss
 ```
 
 To Start
 ```shell
-node app.js
+node app
 ```
