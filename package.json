@@ -17,10 +17,13 @@
     "sass": "^1.32.12",
     "three": "^0.128.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass scss/styles.scss public/css/styles.css --watch"
+    "scss": "node-sass scss/styles.scss public/css/styles.css --watch",
+		"tsc": "tsc"
   },
   "repository": {
     "type": "git",
