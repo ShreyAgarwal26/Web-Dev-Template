@@ -14,7 +14,6 @@
     "node-sass": "^6.0.0",
     "npm": "^7.12.1",
     "request": "^2.88.2",
-    "sass": "^1.32.12",
     "three": "^0.128.0"
   },
   "devDependencies": {
@@ -25,7 +24,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass public/scss/styles.scss public/css/styles.css",
     "tsc": "tsc",
-		"coffee": "coffee -c public/cs/script.coffee",
+    "coffee": "coffee -c public/cs/script.coffee",
     "compile": "npm run tsc && npm run scss && npm run coffee",
     "start": "node app"
   },
