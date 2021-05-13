@@ -23,18 +23,28 @@ Technologies Used:
 
 To Setup
 ```shell
-npm init -y
-npm i ejs express highlight.js jquery lodash mongoose request three sass node-sass
-npm i --save-dev typescript
+git clone https://github.com/MrIntellectual/Web-Dev-Template && cd Web-Dev-Template
+npm i
 ```
 
 To Compile
 ```shell
-npm run scss
+npm run compile
+```
+
+Only do the commands to compile if you want to use SCSS, TypeScript, and CoffeeScript.
+
+If you are using one of them but not the other there are 3 seperate commands
+```shell
+# For TypeScript
 npm run tsc
+# For CoffeeScript
+npm run coffee
+# For SCSS
+npm run scss
 ```
 
 To Start
 ```shell
-node app
+npm run start
 ```
