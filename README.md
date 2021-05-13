@@ -48,3 +48,9 @@ To Start
 ```shell
 npm run start
 ```
+or
+```shell
+node app
+```
+
+Note: if you want to change the strict mode on typescript to be false then change the `tsconfig.json` file to have the `strict` property equal to false
