@@ -23,7 +23,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass scss/styles.scss public/css/styles.css",
+    "scss": "node-sass public/scss/styles.scss public/css/styles.css",
     "tsc": "tsc",
 		"coffee": "coffee -c public/cs/script.coffee",
     "compile": "npm run tsc && npm run scss && npm run coffee",
