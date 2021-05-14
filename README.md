@@ -20,7 +20,7 @@ Technologies Used:
   * EJS
   * Mongoose
   * Lodash
-* MongoDB for database.
+* MongoDB/ReplitDB for Database
 
 To Setup
 ```shell
