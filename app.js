@@ -7,7 +7,7 @@ const ejs = require('ejs');
 const mongoose = require('mongoose');
 const mongodb = require('mongodb');
 const chalk = require('chalk');
-const Database = require("@replit/database")
+const Database = require("@replit/database");
 const app = express();
 const port = process.env.port || 3000;
 const db = new Database();
@@ -21,17 +21,17 @@ app.use(express.static('public'));
 //   useUnifiedTopology: true
 // });
 
-// app.get('/', (req, res) => res.render('index', {
-// 	foo:"FOO",
-// 	delimeter:"%"
-// }));
+app.get('/', (req, res) => res.render('index', {
+	foo:"FOO",
+	delimeter:"%"
+}));
 
-// app.get('/:id',(req,res) => {
-// 	console.log(chalk.green(`Parameter is ${req.params.id}`));
-// 	res.redirect('/');
-// });
+app.get('/:id',(req,res) => {
+	console.log(chalk.green(`Parameter is ${req.params.id}`));
+	res.redirect('/');
+});
 
-// app.get("*",(req,res) => res.render('404'))
+app.get("*",(req,res) => res.render('404'));
 
 // To replace lines 16 and 22 - 32 when using plain HTML
 // app.get('/',(req,res) => res.sendFile(`${__dirname}/views/html/index.html`));
