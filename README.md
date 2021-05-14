@@ -5,7 +5,7 @@ This is a template that anyone can use to make a website.
 This is made for local development, and you need to have [mongodb community server](https://www.mongodb.com/try/download/community) installed.
 
 Technologies Used: 
-* HTML, CSS, JavaScript, and TypeScript for frontend.
+* HTML, CSS, JavaScript, TypeScript, and Coffeescript for frontend.
   * Bootstrap 5
   * Font Awesome
   * JQuery
@@ -13,6 +13,7 @@ Technologies Used:
   * Highlight.js
   * Lodash
   * SCSS
+	* React
   * Badges(By @CoolCoderSJ)
 * Node.JS for backend.
   * Express
