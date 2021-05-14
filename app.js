@@ -6,6 +6,7 @@ const _ = require('lodash');
 const ejs = require('ejs');
 const mongoose = require('mongoose');
 const mongodb = require('mongodb');
+const chalk = require('chalk');
 const app = express();
 const port = process.env.port || 3000;
 
@@ -24,7 +25,7 @@ app.get('/', (req, res) => res.render('index', {
 }));
 
 app.get('/:id',(req,res) => {
-	console.log("Parameter is " + req.params.id);
+	console.log(chalk.green(`Parameter is ${req.params.id}`));
 	res.redirect('/');
 });
 
@@ -45,4 +46,4 @@ app.post('/', (req,res) => res.redirect('/'));
 // });
 // example.save();
 
-app.listen(port, () => console.log(`Server started on port ${port}.`));	
+app.listen(port, () => console.log(chalk.green(`Server started on port ${port}.`)));	
