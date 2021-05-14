@@ -29,7 +29,10 @@ npm i
 
 To Compile
 ```shell
+# Without JSX
 npm run compile
+# With JSX
+npm run compile-JSX
 ```
 
 Only do the commands to compile if you want to use SCSS, TypeScript, and CoffeeScript.
@@ -40,6 +43,8 @@ If you are using one of them but not the other there are 3 seperate commands
 npm run tsc
 # For CoffeeScript
 npm run coffee
+# For Coffeescript with JSX
+npm run coffee-JSX
 # For SCSS
 npm run scss
 ```
