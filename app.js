@@ -15,7 +15,7 @@ const db = new Database();
 app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
 // Include line 16 if only using ejs
-// app.set('view engine', 'ejs');
+app.set('view engine', 'ejs');
 // mongoose.connect('mongodb://localhost:27017/dbname', {
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true
