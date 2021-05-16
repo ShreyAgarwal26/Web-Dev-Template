@@ -52,7 +52,7 @@ npm run scss
 
 To Start
 ```shell
-npm run start
+npm start
 ```
 or
 ```shell
