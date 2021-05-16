@@ -30,8 +30,6 @@
     "tsc": "tsc",
     "coffee": "coffee -c src/cs/script.coffee",
     "compile": "npm run tsc && npm run scss && npm run coffee",
-    "coffee-JSX": "coffee -c src/JSX/cs/script.coffee && coffee -c src/JSX/cs/404.coffee",
-    "compile-JSX": "npm run tsc && npm run scss && npm run coffee-JSX",
     "start": "node app"
   },
   "repository": {
