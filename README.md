@@ -29,6 +29,14 @@ git clone https://github.com/MrIntellectual/Web-Dev-Template && cd Web-Dev-Templ
 npm i
 ```
 
+To Compile and Start
+```shell
+bash run.sh
+```
+___
+
+**If you want to do them Seperately**
+
 To Compile
 ```shell
 npm run compile
@@ -54,5 +62,6 @@ or
 ```shell
 node app
 ```
+___
 
 Note: if you want to change the strict mode on typescript to be false then change the `tsconfig.json` file to have the `strict` property equal to false
