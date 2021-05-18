@@ -14,6 +14,7 @@ Technologies Used:
   * Lodash
   * SCSS
 	* React
+	* Next
   * Badges(By @CoolCoderSJ)
 * Node.JS for backend.
   * Express
