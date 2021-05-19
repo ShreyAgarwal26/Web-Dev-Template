@@ -1,11 +1,19 @@
-# Web Dev Template
+Web Dev Template
 
 This is a template that anyone can use to make a website.
 
-This is made for local development, and you need to have [mongodb community server](https://www.mongodb.com/try/download/community) installed.
+This is made for local development, and for mongodb I recommend having [mongodb community server](https://www.mongodb.com/try/download/community) installed.
 
-Technologies Used: 
-* HTML, CSS, JavaScript, TypeScript, and Coffeescript for frontend.
+Technologies Used:
+
+**Frontend**
+* HTML
+* CSS
+* JavaScript
+* TypeScript
+* Coffeescript
+
+  **Frontend Frameworks/Libraries**
   * Bootstrap 5
   * Font Awesome
   * JQuery
@@ -16,12 +24,21 @@ Technologies Used:
 	* React
 	* Next
   * Badges(By @CoolCoderSJ)
-* Node.JS for backend.
+
+**Backend**
+
+* Node.JS
+
+  **Backend FrameWorks/Libraries**
+	
   * Express
   * EJS
   * Mongoose
   * Lodash
-* MongoDB/ReplitDB for Database
+
+**Databases**
+* MongoDB
+* ReplitDB
 
 To Setup
 ```shell
@@ -61,6 +78,24 @@ npm start
 or
 ```shell
 node app
+```
+
+Even though you can simply use node to start the server, I recommend using nodemon to startup servers. Nodemon is a packaged that restarts a server every time you change/save your code, here's how to install it
+
+```shell
+npm i -g nodemon
+```
+
+and here's how to run it
+
+```shell
+nodemon app
+```
+
+If you want to simply use `npm start` to start up your nodemon server then change line 34 in `package.json` to
+
+```json
+"start": "nodemon app"
 ```
 ___
 

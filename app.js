@@ -7,10 +7,8 @@ const ejs = require('ejs');
 const mongoose = require('mongoose');
 const mongodb = require('mongodb');
 const chalk = require('chalk');
-const Database = require("@replit/database");
 const app = express();
 const port = process.env.port || 3000;
-const db = new Database();
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
