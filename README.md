@@ -21,16 +21,15 @@ Technologies Used:
   * Highlight.js
   * Lodash
   * SCSS
-	* React
-	* Next
+  * React
+  * Next
   * Badges(By @CoolCoderSJ)
 
 **Backend**
 
 * Node.JS
 
-  **Backend FrameWorks/Libraries**
-	
+  **Backend FrameWorks/Libraries**	
   * Express
   * EJS
   * Mongoose
@@ -100,3 +99,5 @@ If you want to simply use `npm start` to start up your nodemon server then chang
 ___
 
 Note: if you want to change the strict mode on typescript to be false then change the `tsconfig.json` file to have the `strict` property equal to false
+
+Another Note: Make sure to change the `package.json` file according to your needs.
