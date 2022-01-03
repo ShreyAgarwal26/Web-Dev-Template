@@ -2,7 +2,7 @@ Web Dev Template
 
 This is a template that anyone can use to make a website.
 
-This is made for local development, and for mongodb I recommend having [mongodb community server](https://www.mongodb.com/try/download/community) installed.
+This is made for local development, and not for replit.
 
 Technologies Used:
 
@@ -23,7 +23,6 @@ Technologies Used:
   * SCSS
   * React
   * Next
-  * Badges(By @CoolCoderSJ)
 
 **Backend**
 
@@ -35,9 +34,8 @@ Technologies Used:
   * Mongoose
   * Lodash
 
-**Databases**
+**Database**
 * MongoDB
-* ReplitDB
 
 To Setup
 ```shell
@@ -97,7 +95,5 @@ If you want to simply use `npm start` to start up your nodemon server then chang
 "start": "nodemon app"
 ```
 ___
-
-Note: if you want to change the strict mode on typescript to be false then change the `tsconfig.json` file to have the `strict` property equal to false
 
 Another Note: Make sure to change the `package.json` file according to your needs.
