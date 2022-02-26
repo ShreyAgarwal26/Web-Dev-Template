@@ -2,7 +2,7 @@ Web Dev Template
 
 This is a template that anyone can use to make a website.
 
-This is made for local development, and not for replit.
+This is made for local development
 
 Technologies Used:
 
